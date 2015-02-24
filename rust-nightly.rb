@@ -3,7 +3,7 @@ require 'date'
 
 class RustNightly < Formula
   homepage 'http://www.rust-lang.org/'
-  url 'https://static.rust-lang.org/dist/rust-nightly.tar.gz'
+  url 'https://static.rust-lang.org/dist/rustc-nightly-src.tar.gz'
   head 'https://github.com/rust-lang/rust.git'
   version Date.today.to_s
 
