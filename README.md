@@ -8,7 +8,7 @@ A homebrew tap for rust-lang.
 Run the following in your command-line:
 
 ```sh
-brew tap tomcheung789/homebrew-rust
+brew tap thinkingfish/homebrew-rust
 ```
 
 Build and install rust & cargo nightly:
