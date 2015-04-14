@@ -12,7 +12,7 @@ class CargoNightly < Formula
   depends_on 'pkg-config' => :build
 
   def install
-    system "./cargo-nightly-x86_64-unknown-linux-gnu/install.sh", "--prefix=#{prefix}"
+    system "./install.sh", "--prefix=#{prefix}"
   end
 
   test do
