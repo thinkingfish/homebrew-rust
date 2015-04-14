@@ -13,9 +13,7 @@ class CargoNightly < Formula
 
   def install
     args = ["--prefix=#{prefix}"]
-    system "./configure", *args
-    system "make"
-    system "make install"
+    system "./cargo-nightly-x86_64-unknown-linux-gnu/install.sh", *args
   end
 
   test do
